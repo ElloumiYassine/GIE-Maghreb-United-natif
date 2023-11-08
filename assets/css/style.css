@@ -787,14 +787,17 @@ section {
 #video {
   background: url(../img/video-bg.jpg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   height: 400px;
   overflow: hidden;
 }
 
 #video .overlay {
   background: rgba(0, 0, 0, 0.85);
+  width: 90%;
   height: 100%;
+  margin-left: 5%;
+
 }
 
 #video .overlay .play-btn {
@@ -883,6 +886,7 @@ section {
   overflow: hidden;
   position: relative;
   width: 100%;
+  border-radius: 10%;
 }
 
 @media (max-width: 991px) {
