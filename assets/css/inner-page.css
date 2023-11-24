@@ -55,9 +55,12 @@
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     padding: 49px 20px;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
   .top-top>h2 {
-    font-family: "Roboto" sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    color: #0C8F6F;
     font-size: 45px;
     font-weight: 100;
     letter-spacing: 2px;
